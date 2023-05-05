@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: #1d1c1c;
+      }
+
+      form {
+        background-color: #333;
+        border-radius: 10px;
+        color: #fff;
+        padding: 200px; 
+        width: 2000px;  
+        margin: 0 auto;
+        margin-top: 500px;
+        /* display: flex;
+        justify-content: center; */
+        size: 0cap;
+      }
+      .a {
+        font-size: 1000%;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      label {
+        display: flex;
+        margin-top: 10px;
+        font-size: 100px; /* Increased font size */
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        border: none;
+        border-radius: 50px;
+        padding: 50px;
+        width: 90%;
+        margin-bottom: 20px;
+        background-color: #444;
+        color: #fff;
+        font-size: 100%;
+      }
+
+      button[type="submit"] {
+        background-color: #1e90ff;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 30px;
+        width: 20%;
+        transition: all 0.3s ease-in-out;
+        font-size: 40px;
+      }
+      input[type="email"]:focus {
+        font-size: 60px; /* Increased font size */
+      }
+      input[type="text"]:focus {
+        font-size: 60px; /* Increased font size */
+        /* padding: 15px; */
+      }
+      input[type="password"]:focus {
+        font-size: 60px; /* Increased font size */
+      }
+      input[type="submit"]:focus {
+        font-size: 60px; /* Increased font size */
+      }
+
+      button[type="submit"]:hover {
+        background-color: #008b8b;
+      }
+    </style>
+
+    <title>Register form</title>
+  </head>
+  <body>
+    <form>
+      <h2 class="a"><b>Sign Up</b></h2>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </body>
+</html>
